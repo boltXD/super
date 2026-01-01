@@ -1,0 +1,8 @@
+{
+  "name": "super-static-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"No build needed\" && mkdir -p dist && cp -r assets dist/ && cp index.html dist/ && cp favicon* dist/ && cp robots.txt dist/"
+  }
+}
